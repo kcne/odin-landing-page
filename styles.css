@@ -52,12 +52,13 @@ align-items: center;
     padding-top:0px;
 }
 .banner button{
-    margin-top:10px;
-    padding: 4px 20px;
+    margin-top:15px;
+    padding: 7px 26px;
     border:none;
     border-radius: 7px;
     background-color: #3882F6;
     color:#F9FAF8;
+    font-size:17px;
 }
 .content-left, .content-right{height:100%;}
 .content-right{
@@ -65,4 +66,94 @@ align-items: center;
 }
 .banner p{
     font-size: 18px;
+}
+.info{
+    text-align: center;
+    background-color:white;
+}
+.info h1{
+    padding-top:10px;
+    font-size: 36px;
+    font-weight:900;
+}
+.card p{
+    margin-top:5px;
+    font-size:15px;
+    text-align: center;
+}
+.card-container{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
+.card{
+    width:120px;
+}
+.frame{
+    height: 150px;
+    width:120px;
+    border:2px;
+    border-color:#3882F6;
+    border-style:solid;
+    border-radius: 5px;
+}
+.testimonial{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height:300px;
+}
+.testimonial p{
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}
+.testimonial>div{
+    width:1000px;
+}
+.testimonial h3{
+    margin-top:10px;
+    text-align:right;
+}
+.adv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    color:#e5e7eb;
+}
+.adv-card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width:900px;
+    padding:20px 30px;
+    border-radius:5px;
+}
+.adv button{
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-style: solid;
+}
+.adv p{
+    font-size:15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#1F2937;
+    color:#e5e7eb;
+}
+footer>p{
+    margin:15px 0;
+}
+.right{
+    align-self:center;
 }
